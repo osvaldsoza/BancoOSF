@@ -13,6 +13,9 @@
         android:theme="@style/Theme.BancoOSF"
         tools:targetApi="31">
         <activity
+            android:name=".FaturaActivity"
+            android:exported="false" />
+        <activity
             android:name=".SaldoActivity"
             android:exported="false" />
         <activity
