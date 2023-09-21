@@ -20,20 +20,20 @@ class MainActivity : AppCompatActivity() {
             finish()
         }
 
-//        binding.imgPoupanca.setOnClickListener {
-//            var intent = Intent(this,PoupancaActivity::class.java)
-//            startActivity(intent)
-//        }
+        binding.imgPoupanca.setOnClickListener {
+            var intent = Intent(this,PoupancaActivity::class.java)
+            startActivity(intent)
+        }
 
         binding.imgFaturas.setOnClickListener {
             var intent = Intent(this,FaturaActivity::class.java)
             startActivity(intent)
             finish()
         }
-//
-//        binding.imgTransferencia.setOnClickListener {
-//            var intent = Intent(this,TransferenciaActivity::class.java)
-//            startActivity(intent)
-//        }
+
+        binding.imgTransferencia.setOnClickListener {
+            var intent = Intent(this,TransferenciaActivity::class.java)
+            startActivity(intent)
+        }
     }
 }
